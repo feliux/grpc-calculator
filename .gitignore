@@ -1,0 +1,9 @@
+# Files
+*.crt
+*.key
+*.csr
+*.pem
+
+# Binaries
+server/server
+client/client

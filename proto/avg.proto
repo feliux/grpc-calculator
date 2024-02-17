@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/feliux/grpc-calculator/proto";
+
+message AverageRequest {
+  double value = 1;
+}
+
+message AverageResponse {
+  double result = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/feliux/grpc-calculator/proto";
+
+message PrimesRequest {
+  int32 value = 1;
+}
+
+message PrimesResponse {
+  int32 result = 1;
+}
