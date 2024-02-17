@@ -2,12 +2,22 @@
 
 Simple gRPC calculator implementation with SSL, login and headers interceptors.
 
-**gRPC Unary**: 
+**gRPC Unary**:
+
 - `rpc Sum(SumRequest) returns (SumResponse);`
 - Error Handling: `rpc Sqrt(SqrtRequest) returns (SqrtResponse);`
-**gRPC Server Streaming**: `rpc Primes(PrimesRequest) returns (stream PrimesResponse)`
-**gRPC Client Streaming**: `rpc Average(stream AverageRequest) returns (AverageResponse)`
-**gRPC Bidirectional**: `rpc Max(stream MaxRequest) returns (stream MaxResponse)`
+
+**gRPC Server Streaming**:
+
+- `rpc Primes(PrimesRequest) returns (stream PrimesResponse)`
+
+**gRPC Client Streaming**:
+
+- `rpc Average(stream AverageRequest) returns (AverageResponse)`
+
+**gRPC Bidirectional**:
+
+- `rpc Max(stream MaxRequest) returns (stream MaxResponse)`
 
 ## Usage
 
